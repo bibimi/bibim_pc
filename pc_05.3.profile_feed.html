@@ -12,35 +12,36 @@
 
 <body>
   <div class="wrap">
-    <div class="gnb_wrap">
-      <a href="#" class="link_home"><img src="./img/icon_logo.png" alt="" class="icon"></a>
-      <ul class="gnb_list">
-        <li>
-          <a href="#" class="link">HOME</a>
-        </li>
-        <li>
-          <a href="#" class="link">MUSIC</a>          
-        </li>
-        <li>
-          <a href="#" class="link">NOTIFICATION</a>          
-        </li>
-        
-        <li class="active">
-          <a href="#" class="link">PROFILE</a>          
-        </li>
-        <li>
-          <a href="#" class="link">MORE</a>          
-        </li>
-        <li>
-          <a href="#" class="link">SIGN IN</a>          
-        </li>
-      </ul>
-    </div> 
+    <div class="wrap">
+      <div class="gnb_wrap">
+        <a href="pc_01.home.html" class="link_home"><img src="./img/icon_logo.png" alt="" class="icon"></a>
+        <ul class="gnb_list">
+          <li>
+            <a href="pc_01.home.html" class="link">HOME</a>
+          </li>
+          <li>
+            <a href="pc_02.1.music.html" class="link">MUSIC</a>          
+          </li>
+          <li>
+            <a href="pc_03.1.noti_list.html" class="link">NOTIFICATION</a>          
+          </li>
+          
+          <li class="active">
+            <a href="pc_05.1.profile_feed.html" class="link">PROFILE</a>          
+          </li>
+          <li>
+            <a href="pc_04.1.more_busking.html" class="link">MORE</a>          
+          </li>
+          <li>
+            <a href="pc_00.signup.html" class="link">SIGN UP</a>          
+          </li>
+        </ul>
+      </div>   
     <div class="content_box sub_71">
       <div class="top_wrap">
         <div class="btn_wrap">
           <button class="btn_search"><img src="./img/icon_search.png" alt="" class="icon"></button>
-          <button class="btn_plus"><img src="./img/icon_plus.png" alt="" class="icon"></button>
+          <button class="btn_plus" onclick="location.href='pc_07.1.plus.html'"><img src="./img/icon_plus.png" alt="" class="icon"></button>
         </div>
       </div>      
       <div class="profile_wrap">
@@ -89,7 +90,7 @@
         <div class="profile_box">
           <div class="tipmoney_wrap">
             <div class="tipmoney_box">
-              <button class="btn_funding">펀딩하기</button>
+              <button class="btn_funding" onclick="location.href='pc_05.5.profile_funding.html'">펀딩하기</button>
             </div>
             <div class="refund_wrap">
               <button class="btn_info"><i class="fas fa-question-circle"></i></button>
@@ -110,17 +111,17 @@
               <!-- FEED -->
               <ul class="profile_board_list">
                 <li>
-                  <div class="user_info_wrap">
+                  <a href="pc_05.3.profile_feed.html"><div class="user_info_wrap">
                     <div class="thumb">
                       <img src="./img/user_dummy.png" alt="" class="icon">
                     </div>
                     <div class="name_address">
                       <div class="name">name</div>
-                      <div class="address">@DDD @DDD @DDD</div>
+                      <div class="address">@DDD</div>
                     </div>
-                  </div>
+                  </div></a>
                   <div class="content_txt">
-                    커피 좋아하세요?<br>저는 커피를 못마시는데, 친구가 여기 커피가 그렇게 맛있다구,,데려와서 한잔 마셨는데 전 아직 애송이였어요,,너무 써ㅜㅜ
+                    커피 좋아하세요?? 전 원래 커피 마시면 안되는데 밤샘 작업하고 낮에는 일하고 그러다보니 커피를 끊을 수가 없어요ㅎ
                   </div>
                   <div class="attach photo">
                     <img src="./img/dummy.png" alt="" class="img">
@@ -131,7 +132,7 @@
                       <button class="btn_share"><img src="./img/icon_share.png" alt="" class="icon"></button>
                       <button class="btn_comment"><img src="./img/icon_comment_color.png" alt="" class="icon"></button>
                     </div>
-                    <div class="comment_wrap">
+                    <a href="pc_03.3.noti_detail_image.html"><div class="comment_wrap">
                       <div class="beam">
                         <span class="value">20</span>
                         <span class="unit">beam</span>
@@ -140,19 +141,19 @@
                         <span class="value">15</span>
                         <span class="unit">comment</span>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
                 </li>
                 <li>
-                  <div class="user_info_wrap">
+                  <a href="pc_05.3.profile_feed.html"><div class="user_info_wrap">
                     <div class="thumb">
                       <img src="./img/user_dummy.png" alt="" class="icon">
                     </div>
                     <div class="name_address">
                       <div class="name">name</div>
-                      <div class="address">@DDD @DDD @DDD</div>
+                      <div class="address">@DDD</div>
                     </div>
-                  </div>
+                  </div></a>
                   <div class="content_txt">
                     안녕하세요. 오랜만입니다. 오늘은 짓궂은 날씨에 어울리는 짧은 곡을 가져왔습니다. 한번씩 들어보시고, 좋은 하루 되시길 바랍니다.
                   </div>
@@ -182,7 +183,7 @@
                       <button class="btn_share"><img src="./img/icon_share.png" alt="" class="icon"></button>
                       <button class="btn_comment"><img src="./img/icon_comment_color.png" alt="" class="icon"></button>
                     </div>
-                    <div class="comment_wrap">
+                    <a href="pc_03.4.noti_detail_sound.html"><div class="comment_wrap">
                       <div class="beam">
                         <span class="value">20</span>
                         <span class="unit">beam</span>
@@ -191,21 +192,21 @@
                         <span class="value">15</span>
                         <span class="unit">comment</span>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
                 </li>
                 <li>
-                  <div class="user_info_wrap">
+                  <a href="pc_05.3.profile_feed.html"><div class="user_info_wrap">
                     <div class="thumb">
                       <img src="./img/user_dummy.png" alt="" class="icon">
                     </div>
                     <div class="name_address">
                       <div class="name">name</div>
-                      <div class="address">@DDD @DDD @DDD</div>
+                      <div class="address">@DDD</div>
                     </div>
-                  </div>
+                  </div></a>
                   <div class="content_txt">
-                    안녕하세요. 오랜만입니다. 오늘은 짓궂은 날씨에 어울리는 짧은 곡을 가져왔습니다. 한번씩 들어보시고, 좋은 하루 되시길 바랍니다.
+                    가사를 쓰고 있어요. 곡 만드는 것보다 훨씬 더 힘들고 어려운 작업인 거 같아요...부르기도 쉬우면서, 포인트도 있어야 하는 그런 가사!
                   </div>
                   <div class="bottom_wrap">
                     <div class="btn_wrap">
@@ -213,7 +214,7 @@
                       <button class="btn_share"><img src="./img/icon_share.png" alt="" class="icon"></button>
                       <button class="btn_comment"><img src="./img/icon_comment_color.png" alt="" class="icon"></button>
                     </div>
-                    <div class="comment_wrap">
+                    <a href="pc_03.2.noti_detail_text.html"><div class="comment_wrap">
                       <div class="beam">
                         <span class="value">20</span>
                         <span class="unit">beam</span>
@@ -222,7 +223,7 @@
                         <span class="value">15</span>
                         <span class="unit">comment</span>
                       </div>
-                    </div>
+                    </div></a>
                   </div>
                 </li>
               </ul>
@@ -240,7 +241,7 @@
     <!--end.content_box-->
   </div>
   
-  <div class="quick_player_wrap">
+  <a href="pc_02.0.music_playpage.html"> <div class="quick_player_wrap">
     <div class="quick_player_area">
       <div class="quick_player_box">
         <div class="label_wrap">
@@ -258,7 +259,7 @@
         <button class="btn_prev"><i class="fas fa-backward"></i></button>
       </div>
     </div>    
-  </div>
+  </div></a>
   <!-- end.quick_player_wrap -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

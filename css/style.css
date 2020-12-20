@@ -40,7 +40,7 @@ textarea{
 button{-webkit-appearance:none; /* 인풋내 그림자 제거 */margin:0;padding:0;background:transparent;border:0;outline:0;}
 button:focus{outline:none;}
 ul{margin:0;padding:0;list-style:none;}
-
+a {text-decoration: none; color: #212529;}
 
 /* radio */
 .custom-radio1{display:flex;align-items: flex-start; position: relative;padding-left:3rem;margin:0;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}

@@ -143,7 +143,9 @@ function NumCount(el, init){
     });        
 }
 
-
+function goBack() {
+    window.history.back();
+}
 
     
 

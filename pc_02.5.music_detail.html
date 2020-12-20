@@ -13,34 +13,34 @@
 <body>
   <div class="wrap">
     <div class="gnb_wrap">
-      <a href="#" class="link_home"><img src="./img/icon_logo.png" alt="" class="icon"></a>
+      <a href="pc_01.home.html" class="link_home"><img src="./img/icon_logo.png" alt="" class="icon"></a>
       <ul class="gnb_list">
         <li>
-          <a href="#" class="link">HOME</a>
+          <a href="pc_01.home.html" class="link">HOME</a>
         </li>
         <li class="active">
-          <a href="#" class="link">MUSIC</a>          
+          <a href="pc_02.1.music.html" class="link">MUSIC</a>          
         </li>
         <li>
-          <a href="#" class="link">NOTIFICATION</a>          
+          <a href="pc_03.1.noti_list.html" class="link">NOTIFICATION</a>          
         </li>
         
         <li>
-          <a href="#" class="link">PROFILE</a>          
+          <a href="pc_05.1.profile_feed.html" class="link">PROFILE</a>          
         </li>
         <li>
-          <a href="#" class="link">MORE</a>          
+          <a href="pc_04.1.more_busking.html" class="link">MORE</a>          
         </li>
         <li>
-          <a href="#" class="link">SIGN IN</a>          
+          <a href="pc_00.signup.html" class="link">SIGN UP</a>          
         </li>
       </ul>
-    </div> 
+    </div>
     <div class="content_box sub_71">
       <div class="top_wrap">
         <div class="btn_wrap">
           <button class="btn_search"><img src="./img/icon_search.png" alt="" class="icon"></button>
-          <button class="btn_plus"><img src="./img/icon_plus.png" alt="" class="icon"></button>
+          <button class="btn_plus" onclick="location.href='pc_07.1.plus.html'"><img src="./img/icon_plus.png" alt="" class="icon"></button>
         </div>
       </div>
       <section class="music_detail_wrap">
@@ -53,15 +53,15 @@
           </div>
           <div class="right_box">
             <div class="right_top">
-              <div class="artist">ARTISTNAME</div>
-              <div class="tag">@another @musician @taggg</div>
+              <div class="artist"><a href="pc_05.3.profile_feed.html"> ARTISTNAME</a></div>
+              <div class="tag"><a href="pc_05.3.profile_feed.html">@another @musician @taggg</a></div>
             </div>
             <div class="right_bottom">
-              <a href="#" class="link_post">게시글 바로보기 <i class="fal fa-chevron-right"></i></a>
+              <a href="pc_03.4.noti_detail_sound.html" class="link_post">게시글 바로보기 <i class="fal fa-chevron-right"></i></a>
               <div class="button_wrap">
                 <button class="btn_play"><img src="./img/icon_play_purple.png" alt="" class="icon"></button>
-                <button class="btn_wallet"><img src="./img/icon_wallet_purple.png" alt="" class="icon"></button>
-                <button class="btn_comment"><img src="./img/icon_comment_purple.png" alt="" class="icon"></button>
+                <button class="btn_wallet" onclick="location.href='pc_05.5.profile_funding.html'"><img src="./img/icon_wallet_purple.png" alt="" class="icon"></button>
+                <button class="btn_comment" onclick="location.href='pc_03.4.noti_detail_sound.html'"><img src="./img/icon_comment_purple.png" alt="" class="icon"></button>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ the same as mine<br>
     <!--end.content_box-->
   </div>
   
-  <div class="quick_player_wrap">
+  <a href="pc_02.0.music_playpage.html"> <div class="quick_player_wrap">
     <div class="quick_player_area">
       <div class="quick_player_box">
         <div class="label_wrap">
@@ -149,7 +149,7 @@ the same as mine<br>
         <button class="btn_prev"><i class="fas fa-backward"></i></button>
       </div>
     </div>    
-  </div>
+  </div></a>
   <!-- end.quick_player_wrap -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
